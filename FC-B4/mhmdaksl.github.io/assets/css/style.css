@@ -1,0 +1,105 @@
+html,
+body{
+    margin: 0 ;
+    padding: 0;
+}
+
+h1{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 58px;
+line-height: 80px;
+/* identical to box height, or 138% */
+letter-spacing: 0.2px;
+color: #000000;
+}
+
+h3{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+letter-spacing: 0.1px;
+color: #000000;
+}
+
+a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* second-text-color */
+    color: #737373;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+    /* background-color: crimson;     */
+}
+
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 20px;
+}
+
+button{
+    padding: 15px 25px;
+}
+
+button span {
+    margin-left: 10px;
+}
+
+.btn-primary{    
+    background: #8d5cf6;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    letter-spacing: 0.2px;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* primary-color */
+    color: #8d5cf6;
+    background-color: transparent;
+    border: none;
+}
